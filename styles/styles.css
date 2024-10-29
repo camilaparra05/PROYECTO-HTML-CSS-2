@@ -1,0 +1,549 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gulfs Display";
+    src: url(/fonts/GulfsDisplay-Normal.ttf);
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+}
+
+.contenedor {
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    height: 80vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    justify-content: center;
+
+
+}
+
+header h1 {
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: rgb(21, 80, 243);
+    z-index: 2;
+    font-size: 72px;
+    bottom: 48%;
+    text-align: center;
+}
+
+
+.imguno {
+    border: 1px solid black;
+    border-radius: 232px;
+    width: 60%;
+    position: relative;
+    top: 45%;
+}
+
+.imgrayo {
+    width: 14%;
+    position: absolute;
+    top: 57%;
+    right: 59px;
+}
+
+.imgestrella {
+    width: 4%;
+    position: absolute;
+    top: 32%;
+    left: 97px;
+}
+
+.imgestrella-uno {
+    width: 7%;
+    position: absolute;
+    top: 64%;
+    right: 83px;
+}
+
+.imgestrella-dos {
+    width: 10%;
+    align-items: center;
+    position: absolute;
+    top: 57%;
+    left: 40px;
+
+}
+
+.imglineas {
+    width: 6%;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    right: 76px;
+}
+
+.imgcomplemento {
+    width: 15%;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 30px;
+    transform: rotate(250deg);
+}
+
+.descripcion {
+    background-color: yellow;
+    height: 250vh;
+    width: 100vw;
+}
+
+.descripcion h1 {
+    position: absolute;
+    color: transparent;
+    text-align: center;
+    font-size: 180px;
+    top: 128%;
+    left: 20px;
+    -webkit-text-stroke: 3px blue;
+    font-family: 'Gulfs Display';
+    line-height: 150px;
+
+}
+
+.tex {
+    position: absolute;
+    font-size: 42px;
+    top: 160%;
+    left: 86px;
+    text-align: left;
+}
+
+.texuno {
+    position: absolute;
+    font-size: 42px;
+    top: 217%;
+    left: 82px;
+    text-align: left;
+}
+
+.img-circulo-rosa {
+    width: 30%;
+    position: absolute;
+    left: 60px;
+    top: 90%;
+}
+
+.img-circulo {
+    position: absolute;
+    top: 119%;
+    right: 32px;
+}
+
+.img-circulo-derecha {
+    position: absolute;
+    left: 38px;
+    top: 119%;
+}
+
+.img-anillo {
+    width: 121px;
+    position: absolute;
+    right: 177px;
+    top: 215%;
+}
+
+.img-estr-naranja {
+    width: 100px;
+    position: absolute;
+    right: 84px;
+    top: 216%;
+}
+
+.fiesta {
+    transform: rotate(250deg);
+    border: 7px solid white;
+    width: 134%;
+}
+
+.chat {
+    position: fixed;
+    background-color: yellow;
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+    border-radius: 50%;
+    bottom: 10px;
+    right:82px;
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.gallery img {
+    width: 331px;
+}
+
+.orange-section {
+    background-color: #FFA500;
+    border: 2px solid black;
+    height: 262px;
+}
+
+.rosa-uno {
+    background-color: pink;
+    border: 2px solid black;
+    height: 353px;
+}
+
+.rosa-uno h1 {
+    color: orange;
+    position: absolute;
+    font-size: 72px;
+    font-family: 'Gulfs Display';
+    top:461%;;
+    text-align: left;
+    left: 177px;
+}
+
+.dos {
+    background-color: pink;
+    border: 2px solid black;
+    height: 353px;
+}
+
+.HOLA {
+    color: blue;
+    position: absolute;
+    font-size: 52px;
+    font-family: 'Gulfs Display';
+    top: 497%;
+    left: 59px;
+}
+
+.fiesta {
+    position: absolute;
+    top: 234%;
+    left: 138px;
+    transform: rotate(356deg);
+    border: 30px solid white;
+    width: 67%;
+}
+.cuadro-rose{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    border: 1px pink;
+}
+.disco {
+    position: absolute;
+    top:  505%;
+    right: 472px;
+    z-index: 2;
+    height: 132px;
+}
+
+.linea-amarrilla {
+    background-color: yellow;
+    border: 1px solid black;
+    width: 80%;
+    height: 3%;
+    border-radius: 70vw;
+    position: relative;
+    top: 58%;
+    left: 7%;
+}
+
+
+
+/* .cuadro-vertical {
+    display: flex;
+    top: 20px;
+} */
+
+.cuadro {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    /* border: 2px solid black; */
+    height: 52%;
+
+}
+
+.amarrillo {
+    background-color: yellow;
+    border: 1px black;
+}
+
+.amarrillo h1 {
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: #FFA500;
+    top: 527%;
+    font-size: 43px;
+    left: 24px;
+    font-size: 47px;
+}
+.amarrillo h2{
+    position: absolute;
+    color: #FFA500;
+    font-family: 'Gulfs Display';
+    top: 564%;
+    /* font-size: 43px; */
+    right: 136px;
+    font-size: 59px;
+
+}
+
+.cara {
+    transform: rotate(332deg);
+    position: absolute;
+    top: 5904px;
+    z-index: 2;
+    width: 20px;
+    height: 96px;
+    right: 444px;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.blanco h1 {
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: blue;
+    top: 527%;
+    font-size: 43px;
+    right: 24px;
+    font-size: 47px;
+}
+.blanco h2{
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: blue;
+    top: 564%;
+    /* font-size: 43px; */
+    right: 136px;
+    font-size: 59px;
+}
+
+.feliz {
+    transform: rotate(332deg);
+    position: absolute;
+    top: 5904px;
+    z-index: 2;
+    width: 20px;
+    height: 96px;
+    left: 444px;
+}
+
+.linea-naranja {
+    border-radius: 56px;
+    border: 1px solid black;
+    background-color: #FFA500;
+    width: 199px;
+    height: 118px;
+    left: 96px;
+    top:  5896px;
+    position: absolute;
+    box-shadow: 10px 12px 5px rgba(0, 0, 0, 1.2);
+}
+
+.linea-rosada{
+    border-radius: 56px;
+    border: 1px solid black;
+    background-color: pink;
+    width: 199px;
+    height: 118px;
+    right: 96px;
+    top:5896px;
+    position: absolute;
+    box-shadow: 10px 12px 5px rgba(0, 0, 0, 1.2);
+}
+.anillos{
+    position: absolute;
+    left: 182px;
+    height: 199px;
+    top: 563%;
+}
+.azul {
+    background-color: blue;
+    position: absolute;
+    top: 574%;
+    }
+
+.azul h1{
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: white;
+    font-size: 56px;
+
+}
+
+.azul h2{ 
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: #240068;
+    top: 83%;
+    /* font-size: 43px; */
+    left: 98px;
+    font-size: 35px;
+}
+.brujula{
+    position: absolute;
+    left: 19px;
+    top: 6425px;
+    height: 231px;
+
+}
+
+.amarillo {
+    
+    background-color: yellow;
+    position: absolute;
+    top: 574%;
+    left: 384px;
+    }
+
+.amarillo h1{
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: blue;
+    font-size: 56px;
+    
+}
+.amarillo h2{
+    position: absolute;
+    font-family: 'Gulfs Display';
+    color: blue;
+    top: 78%;
+    left: 103px;
+    font-size: 47px;
+}
+
+
+.linea-blanca{
+    border-radius: 56px;
+    border: 1px solid black;
+    background-color: white;
+    width: 199px;
+    height: 118px;
+    right: 89px;
+    top: 235px;
+    position: absolute;
+    box-shadow: 10px 12px 5px rgba(0, 0, 0, 1.2);
+}    
+.fondo-negro {
+    height: 417px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Gulfs Display', sans-serif;
+}
+.mapa{
+   position: absolute;
+   left: 175px;
+   top: 636%;
+}
+.camara{
+    position: absolute;
+    right: 20px;
+    height: 186px;
+    top: 658%;
+}
+        
+.texto-izquierda{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    left: 30px;
+    top: 632%;
+}
+.texto-derecha {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 30px;
+    top: 632%;
+}
+.fondo-naranja {
+    background-color: orange;
+    padding: 45px;
+    height: 259px;
+}
+        
+        .texto-total {
+            color: pink;
+            font-size: 51px;
+            font-family: 'Gulfs Display';
+        }
+        
+        .texto-monto {
+            color: yellow;
+            font-size: 82px;
+            font-family: 'Gulfs Display', sans-serif;
+            margin-top: 10px;
+        }
+        
+.fondo-rosado {
+    background-color: pink;
+    padding: 20px;
+    text-align: left;
+    height: 2000px;
+ }
+.texto-fechas {
+    color: blue;
+    font-family: 'Gulfs Display', sans-serif;
+    font-size: 109PX;
+    position: absolute;
+    top: 798%;
+}
+        
+.texto-calendario {
+    color: black;
+    font-size: 44px;
+    position: absolute;
+    top: 826%;
+}
+.texto-fecha {
+    color: orange;
+    font-size: 50px;
+    font-family: 'Gulfs Display';
+    position: absolute;
+    top: 847%;
+    left: 43px;
+}
+        
+.linea-fecha {
+    height: 9px;
+    width: 92%;
+    background-color: orange;
+    position: absolute;
+    top: 857%;
+    left: 20px;
+}
+.novios{
+    font-size: ;
+
+}
+.felizz{
+    f
+}
+.ya{
+    justify-items: ;
+}
+.loop{
+    dd
+}
